@@ -1,0 +1,11 @@
+---
+  - name: instalação Wordpress
+    hosts: localhost  # Alterado de "wordpress2" para "localhost"
+    connection: local  # Adicionado para executar localmente
+    become: yes
+   
+    vars_files:
+      - roles/wordpress/default/vars.yml   #o Ansible geralmente carrega automaticamente os arquivos de variáveis, mas às vezes é necessário especificar isso explicitamente. !No meu caso isso foi o que resolveu o problema de variaveis não definidas
+
+    roles:
+      - wordpress
