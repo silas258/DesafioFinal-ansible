@@ -2,5 +2,5 @@
 
 wordpress_db_name: "wordpress"
 wordpress_db_user: "admin"
-wordpress_db_password: "silas258"
-wordpress_db_host: "teste.cmsj5wjc7hmt.us-east-1.rds.amazonaws.com"
+wordpress_db_password: "password"
+wordpress_db_host: "db-wordpress.cmsj5wjc7hmt.us-east-1.rds.amazonaws.com"
