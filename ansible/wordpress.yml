@@ -1,7 +1,8 @@
 ---
   - name: instalação Wordpress
-    hosts: localhost  # Alterado de "wordpress2" para "localhost"
-    connection: local  # Adicionado para executar localmente
+    hosts: "wordpress2"
+    #hosts: localhost  # Alterado de "wordpress2" para "localhost"
+    #connection: local  # Adicionado para executar localmente
     become: yes
    
     vars_files:
